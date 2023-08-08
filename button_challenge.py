@@ -1,3 +1,6 @@
+# This is a begginer button challenge which displays some buttons in different 
+# languages and shows corresponding greeting in that language in terminal
+
 from tkinter import *
 
 root = Tk()

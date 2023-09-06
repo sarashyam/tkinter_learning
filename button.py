@@ -13,7 +13,10 @@ cvar = StringVar()
 # cvar.set("radio")
 
 def cfun():
+    msg.askyesno("CUTIE PIE", "Are u sure ?")
+    msg.askyesno("CUTIE PIE","Are you damn sure ?")
     msg.showinfo("CUTIE PIE", f" Maybe you are {cvar.get()}.... But YOU mean the WORLD for ME , my LOVE")
+    
 
 cute = ["SUPER CUTE", "ULTRA CUTE", "LITTLE BIT CUTE", " CUTEST" ]
 

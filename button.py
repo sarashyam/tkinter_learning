@@ -34,15 +34,16 @@ Label().pack()
 Label(text="How much cute are YOU? ").pack()
 
 cvar = StringVar()
-# cvar.set("radio")
+cvar.set("CUTEST")
 
 
     
 
-cute = ["SUPER CUTE", "ULTRA CUTE", "LITTLE BIT CUTE", " CUTEST" ]
+cute = ["SUPER CUTE", "ULTRA CUTE", "LITTLE BIT CUTE", "CUTEST" ]
 
 for x in cute:
-    radio = Radiobutton(root, text=f"{x}", value=f"{x}", variable=cvar, bg="pink").pack(anchor="nw", fill=X)
+    radio = Radiobutton(root, text=f"{x}", value=f"{x}", variable=cvar, bg="pink", justify=LEFT).pack(fill=X)
+
 
 Button(root, text="LET'S SEE", command=cfun).pack()
 root.mainloop()
